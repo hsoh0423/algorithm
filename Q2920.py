@@ -1,3 +1,4 @@
+#2024-12-25
 num_list = list(map(int, input().split()))
 
 for i in range(7):
