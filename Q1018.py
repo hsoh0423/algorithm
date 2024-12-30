@@ -1,4 +1,4 @@
-# 깊은 복사를 위한 모듈듈
+# 깊은 복사를 위한 모듈
 import copy
 
 def find_painting_area(chess_board):
@@ -27,7 +27,6 @@ def find_painting_area(chess_board):
 def compare_chess_board(chess_board):
     
     # deepcopy를 이용한 깊은 복사
-    
     first_chess_board = copy.deepcopy(chess_board)
 
     # 첫 번째 판의 시작 칸을 반전시킴 (흑 -> 백, 백->흑)
